@@ -2,7 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '../Header.module.scss';
 import Button, { SignOutButton } from '../components/Sign-out-button'
-const Header = () => {
+import { getServerSession } from 'next-auth'
+
+const Header = async () => {
+  const session = await getServerSession()
   return (
    <header className={styles.header}>
     <nav className={styles.nav}>
@@ -11,7 +14,9 @@ const Header = () => {
             <li><Link href="/">Inicio</Link></li>
             <li><Link href="/public">Login</Link></li>
             <li><Link href="/private">Formulário</Link></li>
+            {session &&
             <li><SignOutButton>Sair</SignOutButton></li>
+            }
         </ul>
     </nav>
    </header> 
