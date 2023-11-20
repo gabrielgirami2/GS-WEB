@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from '../Header.module.scss';
-import Button, { SignOutButton } from '../components/sign-out-button'
+import Button, { SignOutButton } from '../components/Sign-out-button'
 const Header = () => {
   return (
    <header className={styles.header}>

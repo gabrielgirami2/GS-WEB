@@ -1,0 +1,16 @@
+.div {
+    width: 100%;
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .pre{
+        background-color: aqua;
+        color: white;
+        padding: 2.5rem;
+        border-radius: 0.5rem;
+        margin-top: 2.5rem;
+    }
+}
