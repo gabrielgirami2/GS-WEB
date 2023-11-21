@@ -13,7 +13,10 @@ const Header = async () => {
         <ul className={styles.ul}>
             <li><Link href="/">Inicio</Link></li>
             <li><Link href="/public">Login</Link></li>
+            
+            {session && 
             <li><Link href="/private">Formulário</Link></li>
+            }
             {session &&
             <li><SignOutButton>Sair</SignOutButton></li>
             }
