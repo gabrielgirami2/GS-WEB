@@ -2,7 +2,9 @@
 
 import { useSession } from 'next-auth/react'
 import style from '../public/public-page.module.scss'
-import LoginForm from '../auth/login/components/form-login'
+import { LoginForm } from '../auth/login/components/form-login'
+
+
 export default function PublicPage () {
     const { data: session } = useSession()
 
