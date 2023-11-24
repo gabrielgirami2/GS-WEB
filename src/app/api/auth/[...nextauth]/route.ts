@@ -1,6 +1,7 @@
-import NextAuth from 'next-auth/next'
-import { NextAuthOptions } from 'next-auth'
-import CredentialProvider from 'next-auth/providers/credentials'
+import NextAuth from 'next-auth/next';
+import { useRouter } from 'next/router';
+import { NextAuthOptions } from 'next-auth';
+import CredentialProvider from 'next-auth/providers/credentials';
 
 const authOptions: NextAuthOptions = {
     providers: [
@@ -57,6 +58,7 @@ const authOptions: NextAuthOptions = {
     pages: {
       signIn: 'auth/login'
     },
+  
   }
   const handler = NextAuth(authOptions)
   
