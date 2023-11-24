@@ -9,7 +9,7 @@ const Header = async () => {
   return (
    <header className={styles.header}>
     <nav className={styles.nav}>
-        <Link href="/">Logo</Link>
+        <Link href="/">Sedentech</Link>
         <ul className={styles.ul}>
             <li><Link href="/">Inicio</Link></li>
             <li><Link href="/public">Login</Link></li>

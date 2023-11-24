@@ -1,5 +1,5 @@
 import Link from "next/link"
-import style from "../denied/Deniedpage.module.scss";
+import style from "C:/Users/Dell/Documents/GS-WEB/src/style/Deniedpage.module.scss";
 
 export default function DeniedPage () {
     return (

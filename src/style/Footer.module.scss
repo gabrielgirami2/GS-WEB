@@ -1,11 +1,12 @@
 .footer {
-    background-color: #00acee;
-    color: white;
+    border-top: 2.5px solid #00ACEE;
+    color: #FFFFFF;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 
     p {
         font-weight: bold;
@@ -13,7 +14,7 @@
 
 .team {
     margin-top: 20px;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #00ACEE;
     padding-top: 10px;
 
     p {

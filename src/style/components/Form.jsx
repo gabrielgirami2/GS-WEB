@@ -29,7 +29,7 @@ const Form = () => {
 
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
-      <label htmlFor="nome">Nome:</label>
+      <label htmlFor="nome">Nome</label>
       <input
         type="text"
         id="nome"
@@ -39,7 +39,7 @@ const Form = () => {
         required
       />
 
-      <label htmlFor="email">E-mail:</label>
+      <label htmlFor="email">E-mail</label>
       <input
         type="email"
         id="email"
@@ -49,7 +49,7 @@ const Form = () => {
         required
       />
 
-      <label htmlFor="idade">Idade:</label>
+      <label htmlFor="idade">Idade</label>
       <input
         type="text"
         id="idade"
@@ -59,7 +59,7 @@ const Form = () => {
         required
       />
 
-      <label htmlFor="peso">Peso:</label>
+      <label htmlFor="peso">Peso (Kg)</label>
       <input
         type="text"
         id="peso"
@@ -69,7 +69,7 @@ const Form = () => {
         required
       />
 
-      <label htmlFor="sexo">Sexo:</label>
+      <label htmlFor="sexo">Sexo</label>
       <select
         id="sexo"
         name="sexo"

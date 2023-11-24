@@ -1,7 +1,7 @@
 'use client'
 
 import { useSession } from 'next-auth/react'
-import style from '../public/public-page.module.scss'
+import style from 'C:/Users/Dell/Documents/GS-WEB/src/style/public-page.module.scss'
 import { LoginForm } from '../auth/login/components/form-login'
 import Link from 'next/link'
 

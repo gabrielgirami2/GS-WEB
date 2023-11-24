@@ -5,6 +5,7 @@ import style from 'C:/users/Dell/Documents/GS-WEB/src/style/private-page.module.
 import Form from 'C:/Users/Dell/Documents/GS-WEB/src/style/components/Form'
 import Link from 'next/link'
 
+
 export default function PrivatePage() {
     const { data: session } = useSession()
 
