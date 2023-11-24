@@ -95,6 +95,69 @@ const Form = () => {
         <option value="nao">Não</option>
       </select>
 
+      <label htmlFor="fumar">Você fuma?</label>
+      <select
+        id="fumar"
+        name="fumar"
+        value={formData.fumar}
+        onChange={handleChange}
+        required
+      >
+        <option value="">Selecione a opção</option>
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
+
+      <label htmlFor="FrequenciaCardiaca">Qual a sua frequência cardíaca?</label>
+      <input
+        type="text"
+        id="FrequenciaCardiaca"
+        name="FrequenciaCardiaca"
+        value={formData.FrequenciaCardiaca}
+        onChange={handleChange}
+        required
+      />
+
+      <label htmlFor="diabete">Você possui diabetes?</label>
+        <select
+          id="diabete"
+          name="diabete"
+          value={formData.diabete}
+          onChange={handleChange}
+          required
+        >
+          <option value="">Selecione a opção</option>
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+
+      
+      <label htmlFor="obesidade">Você possui Obesidade?</label>
+        <select
+          id="obesidade"
+          name="obesidade"
+          value={formData.obesidade}
+          onChange={handleChange}
+          required
+        >
+          <option value="">Selecione a opção</option>
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+
+      <label htmlFor="esporte">Você pratica algum esporte?</label>
+        <select
+          id="esporte"
+          name="esporte"
+          value={formData.esporte}
+          onChange={handleChange}
+          required
+        >
+          <option value="">Selecione a opção</option>
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+
       <button type="submit" style={{ backgroundColor: '#00acee', color: '#fff', padding: '10px 15px', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Enviar</button>
     </form>
   );
