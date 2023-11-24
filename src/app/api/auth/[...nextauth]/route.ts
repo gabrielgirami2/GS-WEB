@@ -19,6 +19,7 @@ const authOptions: NextAuthOptions = {
             name: 'User Hardcoded',
             role: 'admin'
           }
+         
   
           const isValidEmail = user.email === credentials?.email
           const isValidPassword = user.password === credentials?.password

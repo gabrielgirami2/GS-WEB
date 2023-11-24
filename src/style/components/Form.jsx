@@ -12,6 +12,11 @@ const Form = () => {
     peso: '',
     sexo: '',
     consomeAlcool: '',
+    fumar: '',
+    FrequenciaCardiaca: '',
+    diabete: '',
+    obesidade: '',
+    esporte: '',
   });
 
   const handleChange = (e) => {
@@ -26,6 +31,22 @@ const Form = () => {
     e.preventDefault();
     console.log('Dados do formulário:', formData);
   };
+
+  const resposta = {
+    nome: formData.nome,
+    email: formData.email,
+    idade: formData.idade,
+    peso: formData.peso,
+    sexo: formData.sexo,
+    consomeAlcool: formData.consomeAlcool,
+    fumar: formData.fumar,
+    FrequenciaCardiaca: formData.FrequenciaCardiaca,
+    diabete: formData.diabete,
+    obesidade: formData.obesidade,
+    esporte: formData.esporte,
+  }
+
+  console.log('Respostas do formulário:', resposta)
 
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
@@ -158,9 +179,11 @@ const Form = () => {
           <option value="nao">Não</option>
         </select>
 
-      <button type="submit" style={{ backgroundColor: '#00acee', color: '#fff', padding: '10px 15px', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Enviar</button>
+      <button type="submit" className={styles.submit}>Enviar</button>
     </form>
+
+     
   );
 };
 
-export default Form;
+export { Form }
