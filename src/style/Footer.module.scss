@@ -21,4 +21,22 @@
         font-weight: bold;
     }
   }
+
+  
+  @media (max-width: 768px) {
+    .footer {
+        padding: 5px; 
+    }
+
+    .team {
+        margin-top: 10px; 
+        padding-top: 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        font-size: 14px; 
+    }
+}
   }

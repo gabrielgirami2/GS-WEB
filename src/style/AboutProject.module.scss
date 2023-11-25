@@ -4,4 +4,15 @@
     margin: auto;
     margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
+
+
+    @media (max-width: 768px) {
+        max-width: 80%; /* Reduz a largura máxima em telas menores */
+        margin-top: 50px; /* Reduz o espaço superior em telas menores */
+    }
+
+    @media (max-width: 480px) {
+        max-width: 90%; /* Reduz ainda mais a largura máxima em telas muito pequenas */
+        margin-top: 30px; /* Reduz ainda mais o espaço superior em telas muito pequenas */
+    }
 }
