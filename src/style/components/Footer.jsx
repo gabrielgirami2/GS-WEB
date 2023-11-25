@@ -11,7 +11,7 @@ const Footer = () => {
           <p>Gustavo Vinhola | RM:  | 1TDSPZ | AI & Chatbot</p>
           <p>Felipe Bernardes | RM:  | 1TDSPZ | Computational Thinking Using Python</p>
           <p>Felipe Pinheiro | RM: 550244 | 1TDSPZ | Java and Software Design E Total Experience</p>
-          <p>Victor Fanfoni | RM:  | 1TDSPZ | Building Relational Database</p>
+          <p>Victor Fanfoni | RM: 99173  | 1TDSPZ | Building Relational Database</p>
       </div>
     </footer>
   );
