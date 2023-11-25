@@ -59,7 +59,20 @@
         }
     }
 
-    @media (max-width: 1880px) {
+    @media (max-width: 1550px) {
+        .header{
+            height: 100%;
+        }
+        
+        .nav {
+            .ul {
+                gap: 65px;                 
+                margin-top: 2px; 
+            }
+        }
+    }
+
+    @media (max-width: 2000px) {
         .header{
             height: 100%;
         }
