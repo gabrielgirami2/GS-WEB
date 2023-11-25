@@ -15,7 +15,7 @@ const authOptions: NextAuthOptions = {
           const user = {
             id: '1',
             email: 'user@email.com',
-            password: '134',
+            password: '12345678',
             name: 'User Hardcoded',
             role: 'admin'
           }
