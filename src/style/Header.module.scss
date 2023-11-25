@@ -25,25 +25,49 @@
     }
 
     @media (min-width: 480px) {
-        .header {
-            height: 0px; /* Ajusta a altura automaticamente em telas muito pequenas */
-        }
-
         .nav {
-            flex-direction: column; /* Altera para uma disposição de coluna em telas muito pequenas */
-            align-items: flex-start; /* Alinha os itens à esquerda em telas muito pequenas */
-
             .ul {
-                gap: 5px; /* Ajusta o espaçamento para telas muito pequenas */
-                margin-top: 10px; /* Adiciona um espaço superior para os itens da lista */
+                gap: 5px;                 
+                margin-top: 10px; 
             }
         }
     }
 
     @media (max-width: 768px) {
+        .header{
+            height: 100%;
+        }
+        
         .nav {
             .ul {
-                gap: 10px; /* Ajuste o espaçamento para telas menores */
+                gap: 25px;                 
+                margin-top: 10px; 
+            }
+        }
+    }
+
+    @media (max-width: 1228px) {
+        .header{
+            height: 100%;
+        }
+        
+        .nav {
+            .ul {
+                gap: 45px;                 
+                margin-top: 5px; 
+            }
+        }
+    }
+
+    @media (max-width: 1880px) {
+        .header{
+            height: 100%;
+        }
+        
+        .nav {
+            .ul {
+                gap: 65px;                 
+                margin-top: 2px; 
             }
         }
     }

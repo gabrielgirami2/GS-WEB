@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
-import style from 'C:/Users/Dell/Documents/GS-WEB/src/style/form-login.module.scss'
+import style from '@/style/form-login.module.scss'
 
 const LoginForm = () => {
     const router = useRouter()
